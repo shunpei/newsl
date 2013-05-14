@@ -23,6 +23,9 @@ XSLCONFIG,master/xslconfig.txt
 #メールデータ取得フォルダ
 INPUTDIR,inputdata/
 
+#メールデータ取得フォルダ
+INPUTDIR2,inputdata2/
+
 #速報レポート情報出力フォルダ
 FIRSTREPORT,flashresult/
 
