@@ -50,6 +50,25 @@ print "Processing:$fn\n";
   }
   closedir DH;
 
+  opendir (DH , $cfgd{'INPUTDIR2'});
+  my @files = readdir(DH);
+  my $filenum = 0;
+  foreach my $fn (@files){
+    $fn = $cfgd{'INPUTDIR2'}.$fn;
+    if(-f $fn) {
+print "Processing:$fn\n";
+
+      emlInputData2($fn,$cfgd{'DATAFILE'},$cfgd{'MAILADDRMAP'},\%masterdata,$cfgd{'FIRSTREPORT'});
+      $filenum++;
+
+      move $fn,"datalog/$fn";
+
+    }
+  }
+  closedir DH;
+
+
+
   #タイマーでデータロック
   my $locknum = lockDataByTime(\%masterdata,300);
 
