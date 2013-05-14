@@ -248,7 +248,7 @@ print STDERR "$lret:$data\n";
 }
 
 
-sub makeFRout(){
+sub makeFRout{
    my ($dataline,$resHash,$outdir) = @_;
 
    my ($ts,$zn,$race) = split(/,/,$dataline);
@@ -295,7 +295,7 @@ sub lockDataByTime()
   return $retval;
 }
 
-sub setResultLine(){
+sub setResultLine{
   my ($line,$datahash) = @_;
 #print "$line\n";
 
@@ -523,6 +523,151 @@ print "$line\n";
   close FH;
   return \$retval;
 }
+
+
+sub emlInputData2{
+  my ($emlfilename,$datafilename,$mailmapfilename,$resHash,$firstreportfolder) = @_;
+
+  my $tmpdir = "./tmp";
+#print "file:'$emlfilename'\n";
+  my $parser = MIME::Parser->new;
+  if( !(-d $tmpdir )){
+    mkdir $tmpdir;
+  }
+  $parser->output_dir($tmpdir);
+
+  open FH,$emlfilename;
+  my @bodyline = <FH>;
+  my $entity = $parser->parse(*FH);
+  close FH;
+
+  my %mailmap;
+#print "mailfile:$mailmapfilename\n";
+  open FH,$mailmapfilename;
+  while (my $line = <FH>){
+#print "line:$line\n";
+    #trim
+    $line = jcode($line)->tr('Ａ-Ｚａ-ｚ０-９＠?','A-Za-z0-9@-');
+    $line =~ s/^\s*(.*?)\s*$/$1/;
+    $line =~ s/^\s\s$/\s/g;
+    #null行、コメント行をスキップ
+    if($line eq "" || $line =~ /^#/){
+      next;
+    }
+    my ($mailaddr,$target,$datalength) = split(/,/,$line);
+    $mailmap{$mailaddr}{'TARGET'} = $target;
+    $mailmap{$mailaddr}{'DATALENGTH'} = $datalength;
+#print "$mailaddr - $mailmap{$mailaddr}{'TARGET'}\n";
+  }
+  close FH;
+
+  my $header = $entity->head;
+
+  my $from = $header->get('From');
+  $from =~ s/^\s*(.*?)\s*$/$1/;
+  if($from =~ m/^(.*)\<(.*)\>\s*$/){
+    $from =~ s/^(.*)\<(.*)\>\s*$/$2/;
+  }
+  my $subject = $header->get('Subject');
+  $subject =~ s/\s$//;
+  my $race = $subject;
+#  $race =~ s/(.*):(.*)/$1/;
+  $race = '1';
+  my $datestr = $header->get('Date');
+  $datestr =~ s/^\s*(.*?)\s*$/$1/;
+#  my $datetime = str2time($datestr);
+  my $datetime = time();
+#  $datetime =~ s/\s*$//;
+#  $datetime = str2time($datetime);
+
+#  my $body = $entity->bodyhandle->as_string;
+  my $body_entity = ($entity->is_multipart) ? $entity->parts(0) : $entity;
+  my $body = $body_entity->bodyhandle->as_string;
+
+#print "from:'$from'\n";
+print "Sbj :'$race'\n";
+print "Date:'$datetime'\n";
+print "Body:'$body'\n";
+print "maildata:$datestr\n";
+print "maildata:$from/$race/$datestr\n";
+  
+#  my @bodyline = split('\n',$body);
+  foreach $line (@bodyline){
+
+    $line =~ s/^\s*(.*?)\s*$/$1/;
+    #null行、コメント行をスキップ
+    if($line eq "" || $line =~ /^#/){
+      next;
+    }
+
+    my @dataline;
+    my @data = split(/ /,$line);
+
+    $from = $data[3];
+    splice(@data,3,1);
+    $race = $data[4];
+    splice(@data,3,1);
+
+
+    if($line =~ /^E/i){
+      #E(ND) で読み込み終了
+      last;
+    }elsif(@data == 2){
+      #データ数が２の場合は、mailMAPを参照して、追加。
+      if(exists $mailmap{$from}){
+        unshift(@data, $mailmap{$from}{'TARGET'});
+      }else{
+        next;
+      }
+    }
+    unless(@data == 3){
+      print "DataNUMerr:@data $line\n";
+      next;
+    }else{
+      $data[0] = uc $data[0];
+      if($data[0] eq "M" && @data[2] =~ m/^(L|C|F|UL)$/i){
+        $data[2] = uc $data[2];
+        push(@dataline , "$datetime,$data[1],$race,$data[0],$data[2],$from");
+      }elsif($data[0] =~ m/^(S|G)$/ && $data[2] =~ m/^[0-5]\d[0-5]\d{3}$/){
+        #start or goal の登録
+        push(@dataline , "$datetime,$data[1],$race,$data[0],$data[2],$from");
+      }elsif($data[0] =~ m/^P(\d+)$/){
+        #ゲートペナルティの登録
+        $data[0] =~ s/^P//;
+        my @penall = split(//, $data[2]);
+        foreach my $pen (@penall){
+        my $penval= ($pen eq 5)?"50":"$pen";
+        push(@dataline , "$datetime,$data[1],$race,$data[0],$penval,$from");
+          $data[0]++;
+        }
+      }else{
+        print "DataFMTerr:$line\n";
+        next;
+      }
+
+      foreach $data (@dataline){
+        my $lret = setResultLine($data,$resHash);
+
+        #速報書き込み
+print STDERR "$lret:$data\n";
+        if($lret >= 0){
+#result書き込み
+          open FH,">>$datafilename";
+          print FH "$data\n";
+          close FH;
+          if($lret > 0){
+             makeFRout($data,$resHash,$firstreportfolder)
+          }
+        }
+      }
+
+    }
+  }
+  unlink $emlfilename;
+  move $emlfilename,"$tmpdir/backup/";
+  unlink glob ("$tmpdir/*");
+}
+
 
 #モジュール終了！
 1;
