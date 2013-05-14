@@ -1,0 +1,3 @@
+"output/xml/summary.xml","../xsl/result.final.xsl"
+output/xml/usercheck.xml,"../xsl/result.check.user.xsl"
+"output/xml/datacheck.xml",../xsl/result.check.inputdata.xsl

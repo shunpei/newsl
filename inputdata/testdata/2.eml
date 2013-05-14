@@ -1,0 +1,53 @@
+Return-Path: <guinness@parkcity.ne.jp>
+Delivered-To: guinness@parkcity.ne.jp
+Received: from vcgw4.mta.jcnet.ad.jp (rvc.sv.jcnet.ad.jp [10.1.0.102])
+	by rml03.mta.jcnet.ad.jp (Postfix) with ESMTP id 0AF8F84873
+	for <guinness@parkcity.ne.jp>; Sat,  2 Apr 2011 01:30:44 +0900 (JST)
+Received: by vcgw4.mta.jcnet.ad.jp (Postfix, from userid 99)
+	id 000807EB4; Sat,  2 Apr 2011 01:30:43 +0900 (JST)
+Received: from scan.mta.jcnet.ad.jp (vcgw0a [127.0.0.1])
+	by vcgw3.mta.jcnet.ad.jp (Postfix) with ESMTP id A7F9E7E76
+	for <guinness@parkcity.ne.jp>; Sat,  2 Apr 2011 01:30:43 +0900 (JST)
+Received: from vcgw1.mta.jcnet.ad.jp (vcgw0a [127.0.0.1])
+	by scan.mta.jcnet.ad.jp (Postfix) with ESMTP id 970937C05C
+	for <guinness@parkcity.ne.jp>; Sat,  2 Apr 2011 01:30:43 +0900 (JST)
+Received: from mg01vsv.sv.jcnet.ad.jp (mg.sv.jcnet.ad.jp [10.1.0.107])
+	by vcgw1.mta.jcnet.ad.jp (Postfix) with ESMTP id 85E027E76
+	for <guinness@parkcity.ne.jp>; Sat,  2 Apr 2011 01:30:43 +0900 (JST)
+Received: from vcgw0p.mta.jcnet.ad.jp (mf.sv.jcnet.ad.jp [10.1.0.109])
+	by mg01vsv.sv.jcnet.ad.jp (MOS 3.10.5-GA)
+	with ESMTP id UGC20604;
+	Sat, 2 Apr 2011 01:30:42 +0900 (JST)
+X-Client-IP: 114.198.222.211
+Received: from ienote1 (114-198-222-211.parkcity.ne.jp [114.198.222.211])
+	by vcgw0p.mta.jcnet.ad.jp (Postfix) with SMTP id A7F29E1DF4
+	for <guinness@parkcity.ne.jp>; Sat,  2 Apr 2011 01:30:41 +0900 (JST)
+Message-ID: <117A9EF605684FC9A3E95A5415D1B3E9@ienote1>
+From: "MasashiTsuzuki" <guinness@parkcity.ne.jp>
+To: <guinness@parkcity.ne.jp>
+Subject: 1
+Date: Wed, 6 Apr 2011 01:30:41 +0900
+MIME-Version: 1.0
+Content-Type: text/plain;
+	format=flowed;
+	charset="iso-2022-jp";
+	reply-type=original
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+Importance: Normal
+X-Mailer: Microsoft Windows Live Mail 15.4.3508.1109
+X-MimeOLE: Produced By Microsoft MimeOLE V15.4.3508.1109
+X-Junkmail: UCE(10)
+X-Junkmail-Status: score=10/0, host=mg01vsv.sv.jcnet.ad.jp
+X-Junkmail-SD-Raw: score=unknown,
+	refid=str=0001.0A150203.4D95FDB3.0080,ss=1,fgs=0,
+	ip=114.198.222.211,
+	so=2009-03-06 19:59:02,
+	dmn=5.7.1/2009-08-27,
+	mode=single engine
+X-Junkmail-IWF: false
+
+P10 101 0
+P14 101 00
+

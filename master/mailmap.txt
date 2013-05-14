@@ -1,0 +1,16 @@
+#1
+msyk102310291112@docomo.ne.jp,P1,2
+#2
+mouko28@ezweb.ne.jp,P3,3
+#3
+mixfutago@docomo.ne.jp,P6,2
+#4
+hir11011@wm.pdx.ne.jp,P8,2
+#5
+pajero.5555@i.softbank.jp,P10,3
+#6
+bluesky114@docomo.ne.jp,P12,3
+#7
+supercham2007@ezweb.ne.jp,P15,3
+#8
+pook.ote@gmail.com,P18,3

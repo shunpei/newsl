@@ -1,0 +1,41 @@
+Return-Path: <sysfmk987654321@i.softbank.jp>
+Delivered-To: wsn_calc_sys@parkcity.ne.jp
+Received: from vcgw3.mta.jcnet.ad.jp (rvc.sv.jcnet.ad.jp [10.1.0.102])
+	by rml02.mta.jcnet.ad.jp (Postfix) with ESMTP id 86F2A124722
+	for <wsn_calc_sys@parkcity.ne.jp>; Sun, 17 Apr 2011 09:31:21 +0900 (JST)
+Received: from scan.mta.jcnet.ad.jp (vcgw0a [127.0.0.1])
+	by vcgw3.mta.jcnet.ad.jp (Postfix) with ESMTP id 7A2A24E5D4
+	for <wsn_calc_sys@parkcity.ne.jp>; Sun, 17 Apr 2011 09:31:21 +0900 (JST)
+Received: from vcgw1.mta.jcnet.ad.jp (vcgw0a [127.0.0.1])
+	by scan.mta.jcnet.ad.jp (Postfix) with ESMTP id 69A3C50062
+	for <wsn_calc_sys@parkcity.ne.jp>; Sun, 17 Apr 2011 09:31:21 +0900 (JST)
+Received: from mg04vsv.sv.jcnet.ad.jp (mg.sv.jcnet.ad.jp [10.1.0.107])
+	by vcgw1.mta.jcnet.ad.jp (Postfix) with ESMTP id 595354E5D5
+	for <wsn_calc_sys@parkcity.ne.jp>; Sun, 17 Apr 2011 09:31:21 +0900 (JST)
+Received: from icmsa207.i.softbank.jp (imsa207.mailsv.softbank.jp [126.240.66.112])
+	by mg04vsv.sv.jcnet.ad.jp (MOS 4.1.9-GA)
+	with ESMTP id CRJ01721;
+	Sun, 17 Apr 2011 09:31:21 +0900
+Received: from iemsa207.i.softbank.jp by icmsa207.i.softbank.jp with ESMTP
+          id <20110417003121103.ZHNC.6401.icmsa207.i.softbank.jp@icmsa207.mailsv.softbank.jp>
+          for <wsn_calc_sys@parkcity.ne.jp>;
+          Sun, 17 Apr 2011 09:31:21 +0900
+Received: from [126.170.144.116] ([126.170.144.116] [126.170.144.116])
+          by iemsa207.i.softbank.jp with ESMTP
+          id <20110417003119665.PWSA.19999.iemsa207.i.softbank.jp@iemsa207.mailsv.softbank.jp>
+          for <wsn_calc_sys@parkcity.ne.jp>;
+          Sun, 17 Apr 2011 09:31:19 +0900
+From: =?iso-2022-jp?B?GyRCPUU1SBsoQiAbJEI7S0knGyhC?= <sysfmk987654321@i.softbank.jp>
+Content-Type: text/plain;
+	charset=us-ascii
+X-Mailer: iPhone Mail (8C148)
+Message-Id: <0C3A3C51-32C2-41F5-91A9-14A962985FEC@i.softbank.jp>
+Date: Sun, 17 Apr 2011 09:31:14 +0900
+To: "wsn_calc_sys@parkcity.ne.jp" <wsn_calc_sys@parkcity.ne.jp>
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (iPhone Mail 8C148)
+X-SB-Service: Virus-Checked
+
+
+
+

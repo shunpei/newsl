@@ -1,0 +1,6 @@
+null:notstart
+S:Start / Input Start
+L:Lock data & veryfy data staff
+V:Verfyed / check by athlete
+F:Fix finaldata
+

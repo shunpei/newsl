@@ -1,0 +1,28 @@
+Return-Path: <u-_-u.guinness@docomo.ne.jp>
+Delivered-To: wsn_calc_sys@parkcity.ne.jp
+Received: from vcgw3.mta.jcnet.ad.jp (rvc.sv.jcnet.ad.jp [10.1.0.102])
+	by rml01.mta.jcnet.ad.jp (Postfix) with ESMTP id EF8AF752A7
+	for <wsn_calc_sys@parkcity.ne.jp>; Sat,  9 Apr 2011 15:34:43 +0900 (JST)
+Received: from scan.mta.jcnet.ad.jp (vcgw0a [127.0.0.1])
+	by vcgw3.mta.jcnet.ad.jp (Postfix) with ESMTP id E4FDB65D59
+	for <wsn_calc_sys@parkcity.ne.jp>; Sat,  9 Apr 2011 15:34:43 +0900 (JST)
+Received: from vcgw1.mta.jcnet.ad.jp (vcgw0a [127.0.0.1])
+	by scan.mta.jcnet.ad.jp (Postfix) with ESMTP id D335D11804D
+	for <wsn_calc_sys@parkcity.ne.jp>; Sat,  9 Apr 2011 15:34:43 +0900 (JST)
+Received: from mg05vsv.sv.jcnet.ad.jp (mg.sv.jcnet.ad.jp [10.1.0.107])
+	by vcgw1.mta.jcnet.ad.jp (Postfix) with ESMTP id C2C7C65D59
+	for <wsn_calc_sys@parkcity.ne.jp>; Sat,  9 Apr 2011 15:34:43 +0900 (JST)
+Received: from docomo.ne.jp (mail103.docomo.ne.jp [203.138.203.3])
+	by mg05vsv.sv.jcnet.ad.jp (MOS 4.1.10-GA)
+	with ESMTP id BHA74814;
+	Sat, 9 Apr 2011 15:34:43 +0900
+Date: Sat, 09 Apr 2011 15:34:41 +0900 (JST)
+From: u-_-u.guinness@docomo.ne.jp
+To: wsn_calc_sys@parkcity.ne.jp
+Subject: 1
+Message-ID: <IMTr0TNE14f6a3be0Pbf@docomo.ne.jp>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+
+P1 103 00000222225555

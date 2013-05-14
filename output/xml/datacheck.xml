@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/result.check.inputdata.xsl" ?>
+<all>
+<category value="3.SK-1">
+<zn value="24" name="後藤　樹一" club="カヌーリゾート　たまよどＥＢ" bestpts="149.56">
+<race value="1" pts="158.43" time="150.43" pen="8" pengate="00022 00002 02000 00000" start="000000" goal="023043" status="L" startno="124"/>
+<race value="2" pts="149.56" time="141.56" pen="8" pengate="00022 00000 02020 00000" start="000000" goal="022156" status="L" startno="224"/>
+</zn>
+<zn value="15" name="武田　俊輔" club="長瀞カヌークラブ" bestpts="9999.99">
+<race value="2" pen="4" pengate="----- ----- -202- -----" start="000000" startno="215"/>
+<race value="1" pengate="----- ----- ----- -----" start="000000" startno="115"/>
+</zn>
+<zn value="16" name="長谷川　毅" club="茨城県カヌー協会" bestpts="272.72">
+<race value="1" pts="272.72" time="212.72" pen="60" pengate="20202 00020 02000 0X000" start="000000" goal="033272" status="L" startno="116"/>
+<race value="2" pts="317.37" time="213.37" pen="104" pengate="0000X 00000 02020 X0000" start="000000" goal="033337" status="L" startno="216"/>
+</zn>
+<zn value="21" name="高橋　強" club="浦和カヌークラブ" bestpts="184.80">
+<race value="1" pts="218.63" time="162.63" pen="56" pengate="00020 00000 020X0 20000" start="000000" goal="024263" status="L" startno="121"/>
+<race value="2" pts="184.80" time="178.80" pen="6" pengate="00000 00200 02020 00000" start="000000" goal="025880" status="L" startno="221"/>
+</zn>
+<zn value="12" name="武藤　裕亮" club="青梅総合高校／青梅市カヌー協会" bestpts="180.85">
+<race value="2" pts="380.73" time="172.73" pen="208" pengate="0202X 00022 0X00X X0000" start="000000" goal="025273" status="L" startno="212"/>
+<race value="1" pts="180.85" time="172.85" pen="8" pengate="00002 00002 02000 20000" start="000000" goal="025285" status="L" startno="112"/>
+</zn>
+<zn value="25" name="原　　拓当" club="青梅市カヌー協会" bestpts="157.86">
+<race value="2" pts="174.40" time="164.40" pen="10" pengate="02000 00200 02000 22000" start="000000" goal="024440" status="L" startno="225"/>
+<race value="1" pts="157.86" time="155.86" pen="2" pengate="00000 00000 00000 20000" start="000000" goal="023586" status="L" startno="125"/>
+</zn>
+<zn value="30" name="藤野　浩太" club="青梅市カヌー協会" bestpts="112.30">
+<race value="1" pts="112.30" time="112.30" pen="0" pengate="00000 00000 00000 00000" start="000000" goal="015230" status="L" startno="130"/>
+<race value="2" pts="211.71" time="107.71" pen="104" pengate="00000 XX000 00020 20000" start="000000" goal="014771" status="L" startno="230"/>
+</zn>
+<zn value="11" name="穂積　将輝" club="浦安市カヌー協会" bestpts="227.82">
+<race value="1" pts="227.82" time="171.82" pen="56" pengate="020X0 00002 02000 00000" start="000000" goal="025182" status="L" startno="111"/>
+<race value="2" pts="302.35" time="194.35" pen="108" pengate="000X2 00202 02000 X0000" start="000000" goal="031435" status="L" startno="211"/>
+</zn>
+<zn value="23" name="池田　翔一" club="青梅市カヌー協会" bestpts="116.48">
+<race value="1" pts="131.49" time="123.49" pen="8" pengate="00000 20000 02000 00220" start="000000" goal="020349" status="L" startno="123"/>
+<race value="2" pts="116.48" time="114.48" pen="2" pengate="00000 00020 00000 00000" start="000000" goal="015448" status="L" startno="223"/>
+</zn>
+<zn value="28" name="赤津　克明" club="ＴＥＡＭ　ＦＬＩＰ　ＦＬＯＰ" bestpts="308.22">
+<race value="2" pts="308.22" time="154.22" pen="154" pengate="00000 00002 02000 X00XX" start="000000" goal="023422" status="L" startno="228"/>
+<race value="1" pts="354.63" time="202.63" pen="152" pengate="000X0 00000 0X002 X0000" start="000000" goal="032263" status="L" startno="128"/>
+</zn>
+<zn value="14" name="福田　海騎" club="萌明幼児館ｶﾇｰｸﾗﾌﾞ" bestpts="733.05">
+<race value="2" pts="733.05" time="183.05" pen="550" pengate="XXXXX 00X00 0X0XX X000X" start="000000" goal="030305" status="L" startno="214"/>
+<race value="1" pts="768.58" time="114.58" pen="654" pengate="XXXXX 00X0X 0XX0X 22XXX" start="000000" goal="015458" status="L" startno="114"/>
+</zn>
+<zn value="32" name="金谷　徹" club="松源" bestpts="103.05">
+<race value="1" pts="106.36" time="102.36" pen="4" pengate="00000 00000 02000 20000" start="000000" goal="014236" status="L" startno="132"/>
+<race value="2" pts="103.05" time="101.05" pen="2" pengate="00000 00000 00000 20000" start="000000" goal="014105" status="L" startno="232"/>
+</zn>
+<zn value="31" name="浅見　明太" club="青梅市カヌー協会" bestpts="108.84">
+<race value="2" pts="108.84" time="108.84" pen="0" pengate="00000 00000 00000 00000" start="000000" goal="014884" status="L" startno="231"/>
+<race value="1" pts="119.92" time="119.92" pen="0" pengate="00000 00000 00000 00000" start="000000" goal="015992" status="L" startno="131"/>
+</zn>
+<zn value="27" name="三澤　虎遊汰" club="青梅市カヌー協会" bestpts="117.73">
+<race value="2" pts="117.73" time="113.73" pen="4" pengate="00000 00000 02020 00000" start="000000" goal="015373" status="L" startno="227"/>
+<race value="1" pts="135.62" time="133.62" pen="2" pengate="00000 00000 20000 00000" start="000000" goal="021362" status="L" startno="127"/>
+</zn>
+<zn value="26" name="清水　健" club="青梅総合高校／青梅市カヌー協会" bestpts="146.38">
+<race value="1" pts="153.95" time="151.95" pen="2" pengate="00020 00000 00000 00000" start="000000" goal="023195" status="L" startno="126"/>
+<race value="2" pts="146.38" time="138.38" pen="8" pengate="00002 00000 02020 00020" start="000000" goal="021838" status="L" startno="226"/>
+</zn>
+<zn value="18" name="山本　嶺" club="ＭＦＣＣ" bestpts="147.55">
+<race value="2" pts="147.55" time="137.55" pen="10" pengate="00020 00020 02000 22000" start="000000" goal="021755" status="L" startno="218"/>
+<race value="1" pts="192.42" time="138.42" pen="54" pengate="00000 00200 0X000 20000" start="000000" goal="021842" status="L" startno="118"/>
+</zn>
+<zn value="17" name="谷村　明俊" club="ＹＧＯＣＣ" bestpts="560.83">
+<race value="1" pts="658.63" time="106.63" pen="552" pengate="0XXX2 XXX00 0X00X 0XX0X" start="000000" goal="014663" status="L" startno="117"/>
+<race value="2" pts="560.83" time="206.83" pen="354" pengate="00XXX 00X00 0X0X2 X2000" start="000000" goal="032683" status="L" startno="217"/>
+</zn>
+<zn value="29" name="小島　大地" club="萌明幼児館ｶﾇｰｸﾗﾌﾞ" bestpts="124.83">
+<race value="1" pts="126.19" time="120.19" pen="6" pengate="00020 20000 00020 00000" start="000000" goal="020019" status="L" startno="129"/>
+<race value="2" pts="124.83" time="120.83" pen="4" pengate="00000 00000 02020 00000" start="000000" goal="020083" status="L" startno="229"/>
+</zn>
+<zn value="19" name="城戸　朋之" club="スンタラパニ" bestpts="9999.99">
+<race value="1" pengate="----- ----- ----- -----" start="000000" startno="119"/>
+<race value="2" pengate="----- ----- ----- -----" start="000000" startno="219"/>
+</zn>
+<zn value="22" name="小山　智洋" club="青梅市カヌー協会" bestpts="157.34">
+<race value="1" pts="157.34" time="155.34" pen="2" pengate="00000 00000 02000 00000" start="000000" goal="023534" status="L" startno="122"/>
+<race value="2" pts="157.79" time="153.79" pen="4" pengate="00000 00000 02020 00000" start="000000" goal="023379" status="L" startno="222"/>
+</zn>
+<zn value="13" name="元岡　龍佑" club="流山市カヌー協会" bestpts="442.77">
+<race value="2" pen="108" pengate="00020 20200 02000 X00X0" start="000000" startno="213"/>
+<race value="1" pts="442.77" time="182.77" pen="260" pengate="0002X 00XX2 22000 2XX00" start="000000" goal="030277" status="L" startno="113"/>
+</zn>
+<zn value="20" name="森田　涼太" club="ＭＦＣＣ" bestpts="254.37">
+<race value="2" pts="254.37" time="200.37" pen="54" pengate="00000 00000 02000 2000X" start="000000" goal="032037" status="L" startno="220"/>
+<race value="1" pts="407.91" time="201.91" pen="206" pengate="00002 00X00 02002 XXX00" start="000000" goal="032191" status="L" startno="120"/>
+</zn>
+</category>
+<category value="2.SWK-1">
+<zn value="7" name="八木　愛莉" club="神奈川県" bestpts="139.88">
+<race value="2" pts="191.81" time="135.81" pen="56" pengate="00002 00000 020X0 20000" start="000000" goal="021581" status="L" startno="207"/>
+<race value="1" pts="139.88" time="139.88" pen="0" pengate="00000 00000 00000 00000" start="000000" goal="021988" status="L" startno="107"/>
+</zn>
+<zn value="9" name="矢澤　亜季" club="埼玉県" bestpts="114.45">
+<race value="2" pts="117.98" time="115.98" pen="2" pengate="00000 00000 02000 00000" start="000000" goal="015598" status="L" startno="209"/>
+<race value="1" pts="114.45" time="112.45" pen="2" pengate="00000 00000 02000 00000" start="000000" goal="015245" status="L" startno="109"/>
+</zn>
+<zn value="6" name="森元　郁枝" club="茨城県" bestpts="674.62">
+<race value="2" pts="793.64" time="139.64" pen="654" pengate="0XXXX XXX2X XXXXX 20000" start="000000" goal="021964" status="L" startno="206"/>
+<race value="1" pts="674.62" time="168.62" pen="506" pengate="0XXXX 200X0 2X0XX 2X0X0" start="000000" goal="024862" status="L" startno="106"/>
+</zn>
+<zn value="8" name="斎藤　真智子" club="千葉県" bestpts="160.54">
+<race value="2" pts="165.59" time="159.59" pen="6" pengate="00020 00000 02020 00000" start="000000" goal="023959" status="L" startno="208"/>
+<race value="1" pts="160.54" time="152.54" pen="8" pengate="00000 00200 22000 20000" start="000000" goal="023254" status="L" startno="108"/>
+</zn>
+<zn value="10" name="竹下　百合子" club="東京都" bestpts="119.73">
+<race value="2" pts="121.57" time="117.57" pen="4" pengate="00000 00000 00020 20000" start="000000" goal="015757" status="L" startno="210"/>
+<race value="1" pts="119.73" time="115.73" pen="4" pengate="00000 02000 02000 00000" start="000000" goal="015573" status="L" startno="110"/>
+</zn>
+</category>
+<category value="4.SWK-1">
+<zn value="36" name="寺 垣 　光" club="駿 河 台 大 学" bestpts="127.30">
+<race value="1" pts="131.20" time="125.20" pen="6" pengate="00000 20000 02002 00000" start="000000" goal="020520" status="L" startno="136"/>
+<race value="2" pts="127.30" time="125.30" pen="2" pengate="00000 00000 02000 00000" start="000000" goal="020530" status="L" startno="236"/>
+</zn>
+<zn value="34" name="山口　璃子" club="浦安市カヌークラブ" bestpts="9999.99">
+<race value="2" pengate="----- ----- ----- -----" start="000000" startno="234"/>
+<race value="1" pengate="----- ----- ----- -----" start="000000" startno="134"/>
+</zn>
+<zn value="35" name="三島　　廉" club="青梅市カヌー協会" bestpts="146.56">
+<race value="2" pts="156.77" time="146.77" pen="10" pengate="00022 00200 02020 00000" start="000000" goal="022677" status="L" startno="235"/>
+<race value="1" pts="146.56" time="144.56" pen="2" pengate="00000 20000 00000 00000" start="000000" goal="022456" status="L" startno="135"/>
+</zn>
+<zn value="33" name="小島　ひかり" club="萌明幼児館カヌークラブ" bestpts="564.41">
+<race value="2" pts="564.41" time="162.41" pen="402" pengate="XXX0X 20X00 0X000 X000X" start="000000" goal="024241" status="L" startno="233"/>
+<race value="1" pen="404" pengate="XXXXX 20X02 0X000 X0---" start="000000" startno="133"/>
+</zn>
+</category>
+<category value="1.SK-1">
+<zn value="5" name="安藤　太郎" club="東京都" bestpts="105.60">
+<race value="1" pts="105.60" time="105.60" pen="0" pengate="00000 00000 00000 00000" start="000000" goal="014560" status="L" startno="105"/>
+<race value="2" pts="261.74" time="111.74" pen="150" pengate="00000 00000 0X000 0XX00" start="000000" goal="015174" status="L" startno="205"/>
+</zn>
+<zn value="3" name="小倉　誉史" club="千葉県" bestpts="117.03">
+<race value="1" pts="124.49" time="114.49" pen="10" pengate="00002 20000 22020 00000" start="000000" goal="015449" status="L" startno="103"/>
+<race value="2" pts="117.03" time="113.03" pen="4" pengate="00000 00020 02000 00000" start="000000" goal="015303" status="L" startno="203"/>
+</zn>
+<zn value="4" name="佐藤　俊平" club="埼玉県" bestpts="112.02">
+<race value="1" pts="115.96" time="111.96" pen="4" pengate="00000 00000 00000 20020" start="000000" goal="015196" status="L" startno="104"/>
+<race value="2" pts="112.02" time="110.02" pen="2" pengate="00000 00000 00200 00000" start="000000" goal="015002" status="L" startno="204"/>
+</zn>
+<zn value="2" name="北島　　武" club="神奈川県" bestpts="130.33">
+<race value="2" pts="133.51" time="127.51" pen="6" pengate="00020 00000 00020 20000" start="000000" goal="020751" status="L" startno="202"/>
+<race value="1" pts="130.33" time="122.33" pen="8" pengate="02020 20000 02000 00000" start="000000" goal="020233" status="L" startno="102"/>
+</zn>
+<zn value="1" name="渡　　元春" club="茨城県" bestpts="155.35">
+<race value="2" pts="155.35" time="153.35" pen="2" pengate="00000 00000 00000 00200" start="000000" goal="023335" status="L" startno="201"/>
+<race value="1" pts="172.41" time="168.41" pen="4" pengate="00000 00000 02000 20000" start="000000" goal="024841" status="L" startno="101"/>
+</zn>
+</category>
+<category value="0.FR">
+<zn value="991" name="F1" club="club" bestpts="253.94">
+<race value="1" pts="253.94" time="141.94" pen="112" pengate="000XX 22202 02000 02000" start="000000" goal="022194" status="L" startno="90"/>
+</zn>
+</category>
+</all>

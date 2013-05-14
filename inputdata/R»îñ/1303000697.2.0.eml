@@ -1,0 +1,59 @@
+Return-Path: <minemasa.ryouhei@gmail.com>
+Delivered-To: wsn_calc_sys@parkcity.ne.jp
+Received: from vcgw3.mta.jcnet.ad.jp (rvc.sv.jcnet.ad.jp [10.1.0.102])
+	by rml04.mta.jcnet.ad.jp (Postfix) with ESMTP id 87C1B10D46A
+	for <wsn_calc_sys@parkcity.ne.jp>; Sun, 17 Apr 2011 09:31:01 +0900 (JST)
+Received: from scan.mta.jcnet.ad.jp (vcgw0a [127.0.0.1])
+	by vcgw3.mta.jcnet.ad.jp (Postfix) with ESMTP id 7E29B1648CA
+	for <wsn_calc_sys@parkcity.ne.jp>; Sun, 17 Apr 2011 09:31:01 +0900 (JST)
+Received: from vcgw1.mta.jcnet.ad.jp (vcgw0a [127.0.0.1])
+	by scan.mta.jcnet.ad.jp (Postfix) with ESMTP id 6D7CA20805C
+	for <wsn_calc_sys@parkcity.ne.jp>; Sun, 17 Apr 2011 09:31:01 +0900 (JST)
+Received: from mg01vsv.sv.jcnet.ad.jp (mg.sv.jcnet.ad.jp [10.1.0.107])
+	by vcgw1.mta.jcnet.ad.jp (Postfix) with ESMTP id 5F6041648CA
+	for <wsn_calc_sys@parkcity.ne.jp>; Sun, 17 Apr 2011 09:31:01 +0900 (JST)
+Received: from mail-gy0-f173.google.com (mail-gy0-f173.google.com [209.85.160.173])
+	by mg01vsv.sv.jcnet.ad.jp (MOS 3.10.5-GA)
+	with ESMTP id UHU36519;
+	Sun, 17 Apr 2011 09:31:00 +0900 (JST)
+Received: by gyg4 with SMTP id 4so1472415gyg.32
+        for <wsn_calc_sys@parkcity.ne.jp>; Sat, 16 Apr 2011 17:30:59 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=domainkey-signature:mime-version:date:message-id:subject:from:to
+         :content-type;
+        bh=h9xst/RuCxcPt4aVVjonmf+U/lsZzXItSzveMLm5TT4=;
+        b=HLuRw9XhMEtYBBuHZC5Um35wEQOCGOSS4QbKYNJxVsaaCnHLg++bK3BjwtZGINUpIC
+         DJ9xa9AwqTXBxAIapda//7jVUhHxdDO8aEjv+FPx8mLZK8/59VO1ZriDjaI0pDr2zb1e
+         HHbUAvQUHbLyiQOZLO/woSw5+fXVZeOtmcZSo=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=gmail.com; s=gamma;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        b=Yuk2asXPwbHMnGmb7Si9bTBeuSjo4oIZc2Yr23SiWYUpGGs87t4KCNtANh4itsIqS3
+         VFeBA6kCi4YAZADjLa07Pb9w1V/c/hD64wDzfxoXwZQ0OMKDE4pufUv3YHibxRto9SXw
+         wdSNFUOEpbtqSnFCFP8fRGmJwJvTjAxJP2apw=
+MIME-Version: 1.0
+Received: by 10.151.158.18 with SMTP id k18mr3497033ybo.299.1303000259449;
+ Sat, 16 Apr 2011 17:30:59 -0700 (PDT)
+Received: by 10.151.143.1 with HTTP; Sat, 16 Apr 2011 17:30:59 -0700 (PDT)
+Received: by 10.151.143.1 with HTTP; Sat, 16 Apr 2011 17:30:59 -0700 (PDT)
+Date: Sun, 17 Apr 2011 09:30:59 +0900
+Message-ID: <BANLkTi=riB=rJkw9=cFsYR9pdCse+y7nvg@mail.gmail.com>
+Subject: =?ISO-2022-JP?B?GyRCO3ZBMEVQTz8bKEIgMRskQiQrJGkbKEIz?=
+From: =?ISO-2022-JP?B?GyRCSnZAL05JSj8bKEI=?= <minemasa.ryouhei@gmail.com>
+To: wsn_calc_sys@parkcity.ne.jp
+Content-Type: multipart/alternative; boundary=0015174ff6409b560204a1126355
+
+--0015174ff6409b560204a1126355
+Content-Type: text/plain; charset=ISO-2022-JP
+Content-Transfer-Encoding: 7bit
+
+1から3を担当します。峰政です。
+
+--0015174ff6409b560204a1126355
+Content-Type: text/html; charset=ISO-2022-JP
+Content-Transfer-Encoding: 7bit
+
+<p>1から3を担当します。峰政です。</p>
+
+--0015174ff6409b560204a1126355--

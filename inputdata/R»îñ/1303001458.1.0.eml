@@ -1,0 +1,31 @@
+Return-Path: <stmori0628@ezweb.ne.jp>
+Delivered-To: wsn_calc_sys@parkcity.ne.jp
+Received: from vcgw3.mta.jcnet.ad.jp (rvc.sv.jcnet.ad.jp [10.1.0.102])
+	by rml04.mta.jcnet.ad.jp (Postfix) with ESMTP id 7FD4310D45D
+	for <wsn_calc_sys@parkcity.ne.jp>; Sun, 17 Apr 2011 09:47:20 +0900 (JST)
+Received: from scan.mta.jcnet.ad.jp (vcgw0a [127.0.0.1])
+	by vcgw3.mta.jcnet.ad.jp (Postfix) with ESMTP id 7551B7E76
+	for <wsn_calc_sys@parkcity.ne.jp>; Sun, 17 Apr 2011 09:47:20 +0900 (JST)
+Received: from vcgw1.mta.jcnet.ad.jp (vcgw0a [127.0.0.1])
+	by scan.mta.jcnet.ad.jp (Postfix) with ESMTP id 641CF7C05C
+	for <wsn_calc_sys@parkcity.ne.jp>; Sun, 17 Apr 2011 09:47:20 +0900 (JST)
+Received: from mg01vsv.sv.jcnet.ad.jp (mg.sv.jcnet.ad.jp [10.1.0.107])
+	by vcgw1.mta.jcnet.ad.jp (Postfix) with ESMTP id 54E167E76
+	for <wsn_calc_sys@parkcity.ne.jp>; Sun, 17 Apr 2011 09:47:20 +0900 (JST)
+Received: from ezweb.ne.jp (nx3oBP07-05.ezweb.ne.jp [59.135.39.239])
+	by mg01vsv.sv.jcnet.ad.jp (MOS 3.10.5-GA)
+	with ESMTP id UHU39752;
+	Sun, 17 Apr 2011 09:47:19 +0900 (JST)
+Received: from nxev22mp02 (localhost [127.0.0.1])
+	by nxev22mp02.ezweb.ne.jp (EZweb Mail) with SMTP id D8EAAB17C00FE
+	for <wsn_calc_sys@parkcity.ne.jp>; Sun, 17 Apr 2011 09:47:19 +0900 (JST)
+From: stmori0628@ezweb.ne.jp
+To: wsn_calc_sys@parkcity.ne.jp
+Subject: =?iso-2022-jp?B?GyRCI0MjVBsoQigbJEI3V0IsGyhCKRskQj85JEckORsoQg==?=
+Message-ID: <20110417094719884434000045db@nxev22mp02.ezweb.ne.jp>
+Date: Sun, 17 Apr 2011 09:47:19 +0900
+Mime-Version: 1.0
+Content-Type: text/plain; charset="iso-2022-jp"
+Content-Transfer-Encoding: 7bit
+
+計測タイム送ります

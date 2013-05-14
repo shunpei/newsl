@@ -1,0 +1,28 @@
+#ゲート数
+GATENUM,20
+
+#選手・種目・出廷順他基本データ
+ATHLETE,master/ath_config.txt
+
+#審判員メールアドレス／担当ゲート情報
+MAILADDRMAP,master/mailmap.txt
+
+#計算用ベースデータファイル名
+DATAFILE,result/resultdata.txt
+
+#not use
+CSVFULLOUT,output/calcdata.out.csv
+HTMLFULLOUT,output/calcdata.out.html
+
+#XML リザルト出力（マスタ）
+XMLFULLOUT,output/calcdata.out.xml
+
+#XML リザルト、表示用スタイルシート対応
+XSLCONFIG,master/xslconfig.txt
+
+#メールデータ取得フォルダ
+INPUTDIR,inputdata/
+
+#速報レポート情報出力フォルダ
+FIRSTREPORT,flashresult/
+
