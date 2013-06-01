@@ -18,7 +18,7 @@ readAthMasterData(\%masterdata,$cfgd{'ATHLETE'},$cfgd{'GATENUM'});
 readResultData(\%masterdata,$cfgd{'DATAFILE'});
 
 #タイマーでデータロック
-my $locknum = lockDataByTime(\%masterdata,300);
+my $locknum = lockDataByTime(\%masterdata,30000);
 
 #marge Athdata with RaceData
 #my @resultdata;
@@ -70,7 +70,7 @@ print "Processing:$fn\n";
 
 
   #タイマーでデータロック
-  my $locknum = lockDataByTime(\%masterdata,300);
+  my $locknum = lockDataByTime(\%masterdata,30000);
 
   if($filenum != 0 || $locknum != 0){
   #XML Full ourput

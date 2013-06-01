@@ -14,7 +14,7 @@ use Jcode;
 
 use constant MAXGATENUM => 30;
 
-sub getConfig(){
+sub getConfig{
   my ($dahaHash,$filename)= @_;
 
   #set default
@@ -52,7 +52,7 @@ sub getConfig(){
 #
 #$B=P>l<T>pJs$NFI$_9~$_(B
 #
-sub readAthMasterData(){
+sub readAthMasterData{
   my ($dataHash,$filename,$gatenum)= @_;
 
   my $pengate = "";
@@ -91,7 +91,7 @@ print STDERR "DEF:$line\n";
 #
 #$B4{B8$N%j%6%k%H%G!<%?$rFI$_9~$`!#(B
 #
-sub readResultData(){
+sub readResultData{
   my ($dataHash,$filename) = @_;
 
   my $flgs = 0;
@@ -333,12 +333,12 @@ sub setResultLine{
   }
 
   #$B%G!<%?$,EPO?:Q$_$N>l9g$O!"EPO?;~4V$r%A%'%C%/(B
-  if(exists $$datahash{$zn}{@list[3]}){
-    if($$datahash{$zn}{'DATATIME'}{@list[3]} >= @list[0]){
-      print STDERR "#timedata error:";
-      return -1;
-    }
-  }
+#  if(exists $$datahash{$zn}{@list[3]}){
+#    if($$datahash{$zn}{'DATATIME'}{@list[3]} >= @list[0]){
+#      print STDERR "#timedata error:";
+#      return -1;
+#    }
+#  }
   #$B%G!<%?EPO?(B
   my $orgdata = $$datahash{$zn}{@list[3]};
   $$datahash{$zn}{'DATATIME'}{@list[3]} = @list[0];
@@ -603,11 +603,10 @@ print "maildata:$from/$race/$datestr\n";
     my @dataline;
     my @data = split(/ /,$line);
 
-    $from = $data[3];
-    splice(@data,3,1);
-    $race = $data[4];
+    $race = $data[3];
     splice(@data,3,1);
 
+    #$data[1] = ゼッケン番号
 
     if($line =~ /^E/i){
       #E(ND) $B$GFI$_9~$_=*N;(B

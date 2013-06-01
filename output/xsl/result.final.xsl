@@ -22,9 +22,8 @@
     <xsl:if test="position() &gt; 1">
       <div class="pagebreak"/>
     </xsl:if>
-    <div align="right">2012.5.20</div>
-    <h4>２０１２年度関東カヌースラローム・ワイルドウォーター選手権大会<br/>
-    兼　第６７回国民体育大会カヌー競技関東ブロック</h4>
+    <div align="right">2013.5.19</div>
+    <h4>２０１３年度国民体育大会中国ブロック大会　兼　中国選手権大会カヌースラローム・ワイルドウォーター選手権大会</h4>
     <h2 align="center"><b>スラローム競技結果</b></h2>
     <h2><xsl:value-of select="@value"/></h2>
     <table border="1">
