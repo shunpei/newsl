@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 <xsl:output method="html" encoding="UTF-8"/>
 
@@ -39,7 +39,7 @@
       <th>pengate</th>
     </tr>
     <xsl:for-each select="zn">
-    <xsl:sort select="@bestpts" order="ascending" />
+    <xsl:sort select="@bestpts" data-type="number" order="ascending" />
     <xsl:sort select="@value" order="ascending" />
       <tr>
         <!-- order -->
